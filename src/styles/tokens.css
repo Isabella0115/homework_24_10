@@ -1,0 +1,14 @@
+:root {
+    --color-primary: rgb(255, 255, 255);
+    --color-secondary: rgb(201, 201, 201);
+    --color-background: rgba(84, 83, 83, 0.384);
+    --color-text: rgb(202, 198, 198);
+    --spacing-xxs: 0.25rem;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3rem;
+  }
+  
