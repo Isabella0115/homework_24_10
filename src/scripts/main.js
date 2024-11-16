@@ -1,8 +1,5 @@
 function createLoginLayout() {
-  document.body.style.backgroundImage = "url('src/images/background.jpg')";
-  document.body.style.backgroundSize = 'cover';
-  document.body.style.backgroundRepeat = 'no-repeat';
-  document.body.style.backgroundPosition = 'center';
+  
 
   const $container = document.createElement('div');
   $container.setAttribute('class', 'container-root');
