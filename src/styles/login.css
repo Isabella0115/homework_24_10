@@ -1,6 +1,8 @@
 body {
   height: 100vh;
   transition: .5s all;
+  background-color: rgb(56, 49, 49);
+
 }
 
 .container-root {
@@ -24,10 +26,13 @@ body {
     margin-right: var(--spacing-md);
     border: 0.1px solid var(--color-primary);
     border-radius: var(--spacing-md);
+    background-color: #523c29;
+    box-shadow: .1px .1px .2rem;
+
   }
   
   .btn:hover {
-    background-color: var(--color-background);
+    background-color: #c57532;
     color: var(--color-primary);
     border: 0.1px solid var(--color-primary);
   }
@@ -41,10 +46,15 @@ body {
     width: 300px;
   }
   
+  input::placeholder {
+    color:#523c29 ;
+    opacity: 1;
+  }
+
   .heading {
     color: var(--color-primary);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .text {
@@ -65,10 +75,11 @@ body {
   
   form {
     padding: var(--spacing-xxl);
-    background-color: var(--color-background);
+    background-color:var(--color-background);
     border-radius: 2rem;
     width: 500px;
     text-align: center;
+    box-shadow: 10px 10px .5rem;
   }
   
   .info-btn {
