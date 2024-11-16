@@ -1,8 +1,5 @@
 function createRegistrationLayout() {
-    document.body.style.backgroundImage = "url('src/images/background.jpg')";
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundPosition = 'center';
+    
   
     const container = UI.createElement('div', { class: 'container-root' }, [
       UI.createElement('header', { class: 'header' }, [
